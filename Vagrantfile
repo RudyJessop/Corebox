@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.ssh.insert_key = false
 
   config.vm.provider(MAINVM) do |v|
-    v.name = "RudyTest"
+    v.name = "Corebox" #Virutal Machine Name
     # v.memory = 2048
     # v.cpus = 2
   end
